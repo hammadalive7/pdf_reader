@@ -1,16 +1,17 @@
-# pdf_reader
+<h1>Flutter PDF Reader</h1>
+This is a simple Flutter application that allows you to read PDF files. You can choose a PDF file from your device, and the app will open the PDF file using the Syncfusion Flutter PDF Viewer plugin.<br>
 
-A new Flutter project.
+<h3>Features</h3>
+<ul>
+<li>Choose a PDF file from your device
+<li>View the selected PDF file
+<li>Keep a list of recently viewed PDF files
+<li>Search within the list of recently viewed PDF files
+</ul>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h3>Plugins Used</h3>
+<ol>
+<li>Syncfusion Flutter PDF Viewer - to display PDF files
+<li>File Picker - to choose a PDF file from the device
+<li>Shared Preferences - to store the list of recently viewed PDF files
+</ol>
